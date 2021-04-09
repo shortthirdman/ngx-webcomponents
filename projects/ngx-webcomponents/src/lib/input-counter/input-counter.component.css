@@ -1,0 +1,49 @@
+:host {
+  display: block;
+}
+
+.field {
+	position: relative;
+}
+
+.field__counter {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	
+	width: 1.6rem;
+	height: 1.6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	user-select: none;
+	font-size: .8rem;
+	color: #F5F8FF;
+	background: rgba(245, 248, 255, 0.2);
+	border-radius: 0.2rem;
+}
+
+.field__input {
+	font-family: inherit;
+	font-size: 1.4rem;
+
+	padding: 0.8rem 2rem 0.8rem 0;
+	min-width: 16rem;
+	
+	background: transparent;
+	color: #F5F8FF;
+	border-bottom: 0.15rem solid rgba(245, 248, 255, 0.4);
+	
+	transition: border-color 0.4s;
+}
+
+.field__input:focus {
+	border-color: #FF4754;
+}
+
+.field__input::placeholder {
+	color: rgba(245, 248, 255, 0.4);
+	user-select: none;
+}
