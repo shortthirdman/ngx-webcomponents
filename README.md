@@ -33,5 +33,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Developer Resources
 
-[Angular + npm - How to Publish an Angular Component to npm](https://jasonwatmore.com/post/2020/06/16/angular-npm-how-to-publish-an-angular-component-to-npm)
-[Complete beginner guide to publishing an Angular library to npm](https://medium.com/angular-in-depth/complete-beginner-guide-to-publish-an-angular-library-to-npm-d42343801660)
+* [Angular + npm - How to Publish an Angular Component to npm](https://jasonwatmore.com/post/2020/06/16/angular-npm-how-to-publish-an-angular-component-to-npm)
+* [Complete beginner guide to publishing an Angular library to npm](https://medium.com/angular-in-depth/complete-beginner-guide-to-publish-an-angular-library-to-npm-d42343801660)
