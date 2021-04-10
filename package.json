@@ -1,14 +1,48 @@
 {
   "name": "ngx-webcomponents",
   "version": "0.0.0",
+  "description": "NGX Web UI Components",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint"
+    "build": "ng build --prod",
+    "test": "ng test --no-watch --code-coverage",
+    "lint": "ng lint",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
   },
-  "private": true,
+  "private": false,
+  "homepage": "https://www.github.com/shortthirdman/ngx-webcomponents",
+  "readme": "https://www.github.com/shortthirdman/ngx-webcomponents#readme",
+  "bugs": {
+    "url": "https://www.github.com/shortthirdman/ngx-webcomponents/issues",
+    "email": "swetank.mohanty@outlook.com"
+  },
+  "keywords": [],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/shortthirdman/ngx-webcomponents.git"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "author": {
+    "name": "Swetank Mohanty (shortthirdman)",
+    "email": "swetank.mohanty@outlook.com",
+    "url": "https://github.com/shortthirdman"
+  },
+  "contributors": [
+    {
+      "name": "Swetank Mohanty",
+      "email": "swetank.mohanty@outlook.com",
+      "url": "https://github.com/shortthirdman"
+    }
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "dependencies": {
     "@angular/animations": "~11.2.5",
     "@angular/common": "~11.2.5",
@@ -18,6 +52,7 @@
     "@angular/platform-browser": "~11.2.5",
     "@angular/platform-browser-dynamic": "~11.2.5",
     "@angular/router": "~11.2.5",
+    "autolinker": "3.14.3",
     "bootstrap": "4.6.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",

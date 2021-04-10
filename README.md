@@ -4,11 +4,9 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/shortthirdman/ngx-webcomponents?color=blue)
 ![GitHub contributors](https://img.shields.io/github/contributors/shortthirdman/ngx-webcomponents?color=blue)
 ![Last commit on](https://img.shields.io/github/last-commit/shortthirdman/ngx-webcomponents?color=green)
-
+[![Angular CLI](https://img.shields.io/github/package-json/dependency-version/shortthirdman/ngx-webcomponents/dev/@angular/cli/main)](https://angular.io/cli)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat)](https://www.firsttimersonly.com/)
-
-[![Angular CLI](https://img.shields.io/github/package-json/dependency-version/shortthirdman/ngx-webcomponents/dev/@angular/cli/main)](https://angular.io)
 
 
 **Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
