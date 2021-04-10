@@ -19,7 +19,7 @@ export class AnchorLinkPipe implements PipeTransform {
     decodePercentEncoding: true
   };
   
-  private autolinker: Autolinker;
+  private autolinker: Autolinker | any;
  
   transform(value: string, options?: any): any {
     if (options) {

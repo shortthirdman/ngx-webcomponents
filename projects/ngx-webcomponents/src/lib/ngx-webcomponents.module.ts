@@ -4,16 +4,18 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { InputCounterComponent } from './components/input-counter/input-counter.component';
 
 import { AnchorLinkPipe } from './pipes/anchor-link.pipe';
+import { PasswordPipe } from './pipes/password.pipe';
 
 import { AllowNumericDirective } from './directives/allow-numeric.directive';
-import { AllowAlphanumericDirective } from './directives/allow-alphanumeric.directive';
+import { AllowAlphaNumericDirective } from './directives/allow-alphanumeric.directive';
 
 @NgModule({
   declarations: [
     InputCounterComponent,
     AnchorLinkPipe,
+	PasswordPipe,
     AllowNumericDirective,
-    AllowAlphanumericDirective
+    AllowAlphaNumericDirective
   ],
   imports: [
 	FormsModule,
@@ -22,8 +24,9 @@ import { AllowAlphanumericDirective } from './directives/allow-alphanumeric.dire
   exports: [
 	InputCounterComponent,
 	AnchorLinkPipe,
+	PasswordPipe,
     AllowNumericDirective,
-    AllowAlphanumericDirective
+    AllowAlphaNumericDirective
   ]
 })
 export class NgxWebComponentsModule { }
