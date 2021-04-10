@@ -1,6 +1,6 @@
 {
   "name": "ngx-webcomponents",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "NGX Web UI Components",
   "scripts": {
     "ng": "ng",
@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
   },
-  "private": false,
+  "private": true,
   "homepage": "https://www.github.com/shortthirdman/ngx-webcomponents",
   "readme": "https://www.github.com/shortthirdman/ngx-webcomponents#readme",
   "bugs": {

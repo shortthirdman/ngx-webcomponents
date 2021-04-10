@@ -1,11 +1,36 @@
 {
   "name": "ngx-webcomponents",
   "version": "0.0.1",
+  "homepage": "https://www.github.com/shortthirdman/ngx-webcomponents",
+  "readme": "https://www.github.com/shortthirdman/ngx-webcomponents#readme",
+  "bugs": {
+    "url": "https://www.github.com/shortthirdman/ngx-webcomponents/issues",
+    "email": "swetank.mohanty@outlook.com"
+  },
+  "keywords": [],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/shortthirdman/ngx-webcomponents.git"
+  },
+  "author": {
+    "name": "Swetank Mohanty (shortthirdman)",
+    "email": "swetank.mohanty@outlook.com",
+    "url": "https://github.com/shortthirdman"
+  },
+  "contributors": [
+    {
+      "name": "Swetank Mohanty",
+      "email": "swetank.mohanty@outlook.com",
+      "url": "https://github.com/shortthirdman"
+    }
+  ],
   "peerDependencies": {
     "@angular/common": "^11.2.9",
     "@angular/core": "^11.2.9"
   },
   "dependencies": {
+	"autolinker": "3.14.3",
     "tslib": "^2.0.0"
   }
 }
