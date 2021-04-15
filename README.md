@@ -3,6 +3,7 @@
 ![Apache 2.0 License](https://img.shields.io/github/license/shortthirdman/ngx-webcomponents)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/shortthirdman/ngx-webcomponents?color=blue)
 ![GitHub contributors](https://img.shields.io/github/contributors/shortthirdman/ngx-webcomponents?color=blue)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/shortthirdman/ngx-webcomponents/issues)
 ![Last commit on](https://img.shields.io/github/last-commit/shortthirdman/ngx-webcomponents?color=green)
 [![Angular CLI](https://img.shields.io/github/package-json/dependency-version/shortthirdman/ngx-webcomponents/dev/@angular/cli/main)](https://angular.io/cli)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
