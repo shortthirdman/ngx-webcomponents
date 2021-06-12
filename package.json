@@ -1,5 +1,6 @@
 {
-  "name": "ngx-webcomponents",
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "name": "@shortthirdman/ngx-webcomponents",
   "version": "1.0.0",
   "description": "NGX Web UI Components",
   "scripts": {
@@ -7,7 +8,6 @@
     "start": "ng serve",
     "prebuild": "npm run clean",
     "build": "ng build --prod",
-    "postbuild": "ng-packagr -p package.json",
     "test": "ng test --no-watch --code-coverage",
     "lint": "ng lint",
     "clean": "rimraf dist",

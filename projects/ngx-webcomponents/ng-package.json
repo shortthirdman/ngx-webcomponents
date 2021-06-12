@@ -4,9 +4,7 @@
   "lib": {
     "entryFile": "src/public-api.ts",
 	"umdModuleIds": {
-		"lodash": "_",
-		"autolinker": "Autolinker",
-		"date-fns": "DateFns"
+		"autolinker": "Autolinker"
 	}
   }
 }
