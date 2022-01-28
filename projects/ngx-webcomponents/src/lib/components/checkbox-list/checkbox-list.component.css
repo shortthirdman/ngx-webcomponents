@@ -44,12 +44,12 @@ label::after {
   clip-path: circle(0px at 260px 25 px);
 }
 
-.name {
+.wui-cb-name {
   z-index: 1;
   transition: .4s;
 }
 
-.icon {
+.wui-cb-icon {
   display: block;
   width: 25px;
   height: 25px;
